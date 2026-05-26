@@ -1,0 +1,25 @@
+{
+  "name": "dockerized-node-app",
+  "version": "1.0.0",
+  "description": "simple node app for practising docker images, containers and Dockerfile",
+  "keywords": [],
+  "homepage": "https://github.com/Muhammad-Raheel04/dockerized-node-app#readme",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Raheel04/dockerized-node-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Raheel04/dockerized-node-app.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Raheel",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
